@@ -1,4 +1,4 @@
-package testb;
+package test;
 
 /**
  * Created by DELL on 2018/6/12.
