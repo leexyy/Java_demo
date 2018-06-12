@@ -1,7 +1,9 @@
 package com;
 
 /**
- * Created by DELL on 2018/6/12.
+ * @author lihua
  */
 public class TT {
+    //
+    String str = "hello";
 }
