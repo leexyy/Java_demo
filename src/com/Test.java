@@ -1,6 +1,8 @@
 package com;
 
-import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
 
 /**
  * @author lihua
@@ -20,5 +22,13 @@ public class Test {
         if (i == 2) {
             System.out.println("i = " + i);
         }
+        boolean equal = Objects.equals("", "");
+        System.out.println(equal);
+
+        for (int j = 0; j < 5; j++) {
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.append("^");
+        }
+
     }
 }
